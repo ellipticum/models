@@ -54,6 +54,7 @@ class Editor extends React.Component<any, Model> {
                                 ) : (
                                     <input
                                         type='text'
+                                        maxLength={50}
                                         value={paramValue ? paramValue.value : ''}
                                         onChange={(e) =>
                                             this.setParamValue(param.id, e.target.value)
