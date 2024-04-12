@@ -1,8 +1,3 @@
-export interface Color {
-    name: string
-    value: string
-}
-
 export interface Param {
     id: number
     name: string
@@ -17,7 +12,6 @@ export interface ParamValue {
 
 export interface Model {
     paramValues: ParamValue[]
-    colors: Color[]
 }
 
 export interface Props {
