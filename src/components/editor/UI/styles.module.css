@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    width: 100%;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.item {
+    display: flex;
+}
+
+.label {
+    min-width: 10rem;
+    text-align: start;
+}
+
+.code {
+    word-break: break-all;
+    font-family: monospace, Courier, monospace;
+}
